@@ -21,17 +21,17 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">contact</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
+                brands
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">nike</a>
+                <a class="dropdown-item" href="#">jordan</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">airforce</a>
               </div>
             </li>
             <li class="nav-item">
@@ -53,21 +53,21 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/boot2.jpeg" class="d-block w-100" alt="boots">
+      <img src="images/boot2.jpeg" class="d-block w-100" alt="boots" >
       <div class="carousel-caption d-none d-md-block">
         <h3>boots</h3>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/jordan2.jpeg" class="d-block w-100" alt="jordans">
+      <img src="images/jordan2.jpeg" class="d-block w-100" alt="jordans" >
       <div class="carousel-caption d-none d-md-block">
         <h3>Some jordans for you</h3>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/nike4.jpeg" class="d-block w-100" alt="nike">
+      <img src="images/nike4.jpeg" class="d-block w-100" alt="nike" >
       <div class="carousel-caption d-none d-md-block">
         <h3>like some nikes?</h3>
         <p>Some representative placeholder content for the third slide.</p>
@@ -84,10 +84,101 @@
   </button>
 </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<section class="my-4">
+  <div class="py-4"> 
+    <h2 class="text-center">nike</h2>
+  </div>
+
+  <div class="container-fluid"> 
+    <div class="row">
+    <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/nike5.jpeg" class="img-fluid pb-3">
+  </div>
+
+  <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/nike2.jpeg" class="img-fluid pb-3">
+  </div>
+
+  <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/nike4.jpeg" class="img-fluid pb-3">
+  </div>
+
+  </div>
+  </div>
+   
+  
+
+
+</section>
+
+<section class="my-4">
+  <div class="py-4"> 
+    <h2 class="text-center">jordan</h2>
+  </div>
+
+  <div class="container-fluid"> 
+    <div class="row">
+    <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/jordan.jpeg" class="img-fluid pb-3">
+  </div>
+
+  <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/jordan2.jpeg" class="img-fluid pb-3">
+  </div>
+
+  <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/jordan4.jpeg" class="img-fluid pb-3">
+  </div>
+
+  </div>
+  </div>
+   
+  
+
+
+</section>
+
+<section class="my-4">
+  <div class="py-4"> 
+    <h2 class="text-center">airforce</h2>
+  </div>
+
+  <div class="container-fluid"> 
+    <div class="row">
+    <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/air.jpeg" class="img-fluid pb-3">
+  </div>
+
+  <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/air1.jpeg" class="img-fluid pb-3">
+  </div>
+
+  <div class="col-lg-2 c0l-md-2 col-4"> 
+    <img src="images/air5.jpeg" class="img-fluid pb-3">
+  </div>
+
+  </div>
+  </div>
+   
+  
+
+
+</section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+   
+
+    
 </body>
        
-</body>
+
 </html>
