@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prestige hotel</title>
+    <title>yeeh!Shoes</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -21,17 +21,17 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
+              <a class="nav-link" href="#contact">contact</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 brands
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">nike</a>
-                <a class="dropdown-item" href="#">jordan</a>
+                <a class="dropdown-item" href="#nike">nike</a>
+                <a class="dropdown-item" href="#jordan">jordan</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">airforce</a>
+                <a class="dropdown-item" href="#airforce">airforce</a>
               </div>
             </li>
             <li class="nav-item">
@@ -83,7 +83,7 @@
     <span class="sr-only">Next</span>
   </button>
 </div>
-
+<a id="nike">
 <section class="my-4">
   <div class="py-4"> 
     <h2 class="text-center">nike</h2>
@@ -110,7 +110,9 @@
 
 
 </section>
+</a>
 
+<a id="jordan">
 <section class="my-4">
   <div class="py-4"> 
     <h2 class="text-center">jordan</h2>
@@ -137,7 +139,9 @@
 
 
 </section>
+</a>
 
+<a id="airforce">
 <section class="my-4">
   <div class="py-4"> 
     <h2 class="text-center">airforce</h2>
@@ -164,6 +168,46 @@
 
 
 </section>
+</a>
+
+<a id="contact">
+<section class="my-4">
+  <div class="py-4"> 
+    <h2 class="text-center">contact us</h2>
+  </div>
+  <div class="w-50 m-auto"> 
+    <form action ="about.php" method="post">
+      <div class="form-group">
+         <label>name:</label>
+         <input type="text" name="name" class="form-control">
+      </div>
+      <div class="form-group">
+         <label>email:</label>
+         <input type="text" name="email" class="form-control">
+      </div>
+      <div class="form-group">
+         <label>number:</label>
+         <input type="text" name="number" class="form-control">
+      </div>
+        <button type="submit" class="btn btn-success">submit</button>
+    </form>
+  </div>
+   
+  
+</section >
+</a>
+
+<a id="about">
+<section class="my-4"> 
+  <div class="py-4"> 
+    <h2 class="text-center"> about</h2>
+  </div>
+    <div class="container-fluid">
+      <h3 class="text-center">mac</h3><br>
+      <p class="text-center"><b> Welcome to our company.Get your shoe of choice at an affordable price.</b></p>
+    </div>
+</section>
+</a>
 
 
 
